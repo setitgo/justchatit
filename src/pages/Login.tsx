@@ -30,7 +30,7 @@ export function Login() {
       return false;
     }
     if (!formData.password.trim()) {
-      setError('password is required');
+      setError('Password is required');
       return false;
     }
     if (!/\S+@\S+\.\S+/.test(formData.email)) {
